@@ -38,7 +38,7 @@ jobs:
         name: Print environment variables
         run: printenv
       - id: checkout
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v3.2.0
       - id: stable
         name: ${{ env.STABLE }}
         uses: ./
